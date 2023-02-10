@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseActivity"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="222dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="222dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            app:srcCompat="@drawable/sitlogo" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_emanagex"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/adminbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Admin"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_corners"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15sp"/>
+        <Button
+            android:id="@+id/stdbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Student"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_corners"/>
+    </LinearLayout>
+
+
+</LinearLayout>
