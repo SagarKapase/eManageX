@@ -49,7 +49,7 @@
             android:layout_weight="1"
             android:background="@drawable/boxed_edit_text"
             android:ems="10"
-            android:hint="Username"
+            android:hint="@string/username"
             android:inputType="textPersonName"
             android:minHeight="48dp" />
         <Space

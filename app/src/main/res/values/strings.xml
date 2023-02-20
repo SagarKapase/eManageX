@@ -5,8 +5,8 @@
     <string name="title_activity_admin_panel">AdminPanel</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">Sinhgad Institute of Technology, Lonavala</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="nav_header_subtitle">SIT,Lonavala</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -15,4 +15,23 @@
     <string name="menu_share">Share</string>
     <string name="menu_about">About</string>
     <string name="menu_logout">Logout</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="clubs">Clubs</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="no_published_events_let_s_create_one">No published events. Let\'s Create one</string>
+    <string name="create_event">Create Event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_event_name">Enter Event Name</string>
+    <string name="select_date">Enter Date (DD/MM/YY)</string>
+    <string name="select_time">Enter Time (HH:MM)</string>
+    <string name="enter_speaker_name">Enter Speaker Name</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_registration_fee">Enter Registration Fee</string>
+    <string name="username">Username</string>
+    <string name="description">Event Description...</string>
+    <string name="create">Create</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_asset"
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@drawable/clubs_asset"
+            android:title="@string/clubs"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="@string/about"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/share"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout"
+            android:menuCategory="secondary"/>
+    </group>
+</menu>
